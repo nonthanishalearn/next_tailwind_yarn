@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+    images: {
+        domains: ['svg'], // Add the hostname 'svg' to the 'domains' array
+      },
+};
 
 export default nextConfig;
